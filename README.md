@@ -42,6 +42,13 @@ beez-society/
 ├── script.js        # DOM yönetimleri, imleç motoru ve veri render işlemleri
 └── README.md        # Proje dokümantasyonu
 ```
+
+---
+
+### 🔗 Let's Connect / İletişim
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/eroglustudios)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://eroglustudios.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@eroglustudios.com)
 ---
 
 ## 🛡️ Lisans ve Haklar
