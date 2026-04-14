@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menü | Beez Society</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--dark-negroni);">
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">Beez SOCIETY</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="menu.html" style="color: var(--orange-accent);">Menü</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="menu-page-section" style="padding-top: 150px; padding-bottom: 100px; min-height: 100vh;">
+        <div class="container">
+            <h1 class="overlay-title" style="text-align: center; font-size: 3rem; color: var(--text-white); margin-bottom: 40px; font-family: 'Cormorant Garamond', serif;">Beez Society Card</h1>
+
+            <div class="category-filter">
+                <button class="filter-btn active" data-cat="all">Hepsi</button>
+                <button class="filter-btn" data-cat="kokteyl">Kokteyller</button>
+                <button class="filter-btn" data-cat="icecek">İçecekler</button>
+                <button class="filter-btn" data-cat="ana-yemek">Ana Yemek</button>
+                <button class="filter-btn" data-cat="apetizer">Apetizer</button>
+                <button class="filter-btn" data-cat="tatli">Tatlı</button>
+            </div>
+
+            <div class="menu-grid" id="menu-grid-content">
+                </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
